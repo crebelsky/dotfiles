@@ -8,3 +8,15 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias r="cd ~/$PROJECTS"
